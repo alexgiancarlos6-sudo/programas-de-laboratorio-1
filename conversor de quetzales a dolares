@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor GTQ a USD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="converter-card">
+        <h2>GTQ a USD</h2>
+        <div class="input-group">
+            <label>Quetzales (GTQ)</label>
+            <input type="number" id="gtqInput" placeholder="0.00" oninput="convertGTQtoUSD()">
+        </div>
+        <div class="arrow">↓</div>
+        <div class="input-group">
+            <label>Dólares (USD)</label>
+            <input type="number" id="usdInput" placeholder="0.00" oninput="convertUSDtoGTQ()">
+        </div>
+        <p class="rate-info">Tasa actual: 1 GTQ = 0.131 USD</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
